@@ -1,4 +1,4 @@
-import { HomeContainer }from './HomePage.styled.js';
+import { HomeContainer }from './HomePage.styled';
 // import { StartContent } from 'components/StartContent/StartContent';
 
 export function HomePage() {
