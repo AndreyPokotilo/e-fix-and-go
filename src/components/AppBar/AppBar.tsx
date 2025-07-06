@@ -5,7 +5,7 @@ import { Container } from "./AppBar.styled";
 export function AppBar() {
   return (
     <Container>
-      <Suspense>
+      <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
       </Suspense>
     </Container>
