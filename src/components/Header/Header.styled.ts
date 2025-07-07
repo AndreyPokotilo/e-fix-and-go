@@ -2,8 +2,20 @@ import styled from "@emotion/styled";
 import { NavLink } from 'react-router-dom';
 
 export const HeaderContainer = styled.header`
-width: 100%;
+  /* position: fixed; */
+  display: flex;
+  transition: top 0.2s;
+  align-items: center;
+  width: 100%;
+  padding: 8px 10px;
+  border-bottom: 1px solid #000;
+  background-color: #ffffff;
+  z-index: 10;
+  > nav {
+    display: flex;
+  }
 `;
+
 
 export const Link = styled(NavLink)`
   display: flex;

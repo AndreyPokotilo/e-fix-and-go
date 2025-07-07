@@ -3,7 +3,7 @@ import { ServiceContainer } from './Service.styled';
 export const Service = ()  => {
   return (
     <ServiceContainer>
-      {/* <StartContent/> */}
+      <p>SERVICE</p>
     </ServiceContainer>
   );
 }

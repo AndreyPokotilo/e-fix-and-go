@@ -4,7 +4,7 @@ import { HomeContainer }from './HomePage.styled';
 export function HomePage() {
   return (
     <HomeContainer>
-      {/* <StartContent/> */}
+      <p>HOME</p>
     </HomeContainer>
   );
 }
