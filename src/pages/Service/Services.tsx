@@ -1,6 +1,6 @@
 import { ServiceContainer } from './Service.styled';
 
-export function HomePage() {
+export const Service = ()  => {
   return (
     <ServiceContainer>
       {/* <StartContent/> */}

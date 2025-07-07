@@ -1,6 +1,6 @@
 import { GaleryContainer } from "./Galery.styled"
 
-export function HomePage() {
+export const Galery = () => {
   return (
     <GaleryContainer>
       
