@@ -1,12 +1,15 @@
-import { HeaderContainer } from "./Header.styled";
+import { HeaderContainer, Link, Nav } from "./Header.styled";
 
 export function Header() {
-  
   return (
     <HeaderContainer>
-      <p>Hallo World!!! My name is Andrii</p>
-      <p>Service</p>
-      <p>Galery</p>
+      <Nav>
+        <Link to="/" end>
+          Home
+        </Link>
+        <Link to="service">Service</Link>
+        <Link to="galery">Galery</Link>
+      </Nav>
     </HeaderContainer>
   );
 }
