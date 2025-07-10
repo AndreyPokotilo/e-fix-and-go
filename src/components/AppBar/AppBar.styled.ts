@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.header`
-width: 100%;
+width: 1280px;
 `;
